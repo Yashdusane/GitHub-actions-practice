@@ -15,7 +15,7 @@ jobs:
 ## 1st job (Give indentation)
   say-hello:
     # Create a ephermal Container with Ubuntu running
-    runs-on: Ubuntu-letest
+    runs-on: ubuntu-latest
     # That Epharnal container will have steps to excecute, hence name those steps and use run: run the commands
     steps:
       - name: Say hello to everyone
