@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Deploy the code
-        run: echo "Deploy the code"
+        run: echo "Deploing the code"
   test:
     needs: [Deploy,build,code]
     runs-on: ubuntu-latest
